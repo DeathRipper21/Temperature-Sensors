@@ -39,6 +39,7 @@ def blink(led):
     led.value=False
 
 if __name__ == '__main__':
+    """Author: DeathRipper21"""
     power, power2 = clean_up()
     led=led_ini()
     print("Cleaning up....")
